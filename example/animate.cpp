@@ -4,14 +4,10 @@
 
 #define animation
 
-/*
-	Make sure maze can fit on screen
-	If not either decrease window_size or decrease terminal font size
-*/
 
 #define y_window_size 10 // for number of rows to display during animation
 #define x_window_size 10 // for number of columns to display during animation
-#define speed 0.5 // lower number to increase speed. max speed is 0. 
+#define speed 0.7 // lower number to increase speed. max speed is 0. 
 
 
 #include "MazePrint.h"
